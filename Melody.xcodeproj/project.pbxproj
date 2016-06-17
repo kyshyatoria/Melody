@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B11FF0F71D13FB1000CF5DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF0F61D13FB1000CF5DDA /* main.m */; };
+		B11FF0FA1D13FB1000CF5DDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF0F91D13FB1000CF5DDA /* AppDelegate.m */; };
+		B11FF0FD1D13FB1000CF5DDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF0FC1D13FB1000CF5DDA /* ViewController.m */; };
+		B11FF1001D13FB1000CF5DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11FF0FE1D13FB1000CF5DDA /* Main.storyboard */; };
+		B11FF1021D13FB1000CF5DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11FF1011D13FB1000CF5DDA /* Assets.xcassets */; };
+		B11FF1051D13FB1000CF5DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11FF1031D13FB1000CF5DDA /* LaunchScreen.storyboard */; };
+		B11FF1101D13FB1000CF5DDA /* MelodyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF10F1D13FB1000CF5DDA /* MelodyTests.m */; };
+		B11FF11B1D13FB1000CF5DDA /* MelodyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF11A1D13FB1000CF5DDA /* MelodyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B11FF10C1D13FB1000CF5DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11FF0EA1D13FB1000CF5DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11FF0F11D13FB1000CF5DDA;
+			remoteInfo = Melody;
+		};
+		B11FF1171D13FB1000CF5DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11FF0EA1D13FB1000CF5DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11FF0F11D13FB1000CF5DDA;
+			remoteInfo = Melody;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B11FF0F21D13FB1000CF5DDA /* Melody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Melody.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11FF0F61D13FB1000CF5DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B11FF0F81D13FB1000CF5DDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B11FF0F91D13FB1000CF5DDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B11FF0FB1D13FB1000CF5DDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B11FF0FC1D13FB1000CF5DDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B11FF0FF1D13FB1000CF5DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B11FF1011D13FB1000CF5DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B11FF1041D13FB1000CF5DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B11FF1061D13FB1000CF5DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11FF10B1D13FB1000CF5DDA /* MelodyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelodyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11FF10F1D13FB1000CF5DDA /* MelodyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MelodyTests.m; sourceTree = "<group>"; };
+		B11FF1111D13FB1000CF5DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11FF1161D13FB1000CF5DDA /* MelodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelodyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11FF11A1D13FB1000CF5DDA /* MelodyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MelodyUITests.m; sourceTree = "<group>"; };
+		B11FF11C1D13FB1000CF5DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B11FF0EF1D13FB1000CF5DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11FF1081D13FB1000CF5DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11FF1131D13FB1000CF5DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B11FF0E91D13FB1000CF5DDA = {
+			isa = PBXGroup;
+			children = (
+				B11FF0F41D13FB1000CF5DDA /* Melody */,
+				B11FF10E1D13FB1000CF5DDA /* MelodyTests */,
+				B11FF1191D13FB1000CF5DDA /* MelodyUITests */,
+				B11FF0F31D13FB1000CF5DDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B11FF0F31D13FB1000CF5DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B11FF0F21D13FB1000CF5DDA /* Melody.app */,
+				B11FF10B1D13FB1000CF5DDA /* MelodyTests.xctest */,
+				B11FF1161D13FB1000CF5DDA /* MelodyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B11FF0F41D13FB1000CF5DDA /* Melody */ = {
+			isa = PBXGroup;
+			children = (
+				B11FF0F81D13FB1000CF5DDA /* AppDelegate.h */,
+				B11FF0F91D13FB1000CF5DDA /* AppDelegate.m */,
+				B11FF0FB1D13FB1000CF5DDA /* ViewController.h */,
+				B11FF0FC1D13FB1000CF5DDA /* ViewController.m */,
+				B11FF0FE1D13FB1000CF5DDA /* Main.storyboard */,
+				B11FF1011D13FB1000CF5DDA /* Assets.xcassets */,
+				B11FF1031D13FB1000CF5DDA /* LaunchScreen.storyboard */,
+				B11FF1061D13FB1000CF5DDA /* Info.plist */,
+				B11FF0F51D13FB1000CF5DDA /* Supporting Files */,
+			);
+			path = Melody;
+			sourceTree = "<group>";
+		};
+		B11FF0F51D13FB1000CF5DDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B11FF0F61D13FB1000CF5DDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B11FF10E1D13FB1000CF5DDA /* MelodyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B11FF10F1D13FB1000CF5DDA /* MelodyTests.m */,
+				B11FF1111D13FB1000CF5DDA /* Info.plist */,
+			);
+			path = MelodyTests;
+			sourceTree = "<group>";
+		};
+		B11FF1191D13FB1000CF5DDA /* MelodyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B11FF11A1D13FB1000CF5DDA /* MelodyUITests.m */,
+				B11FF11C1D13FB1000CF5DDA /* Info.plist */,
+			);
+			path = MelodyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B11FF0F11D13FB1000CF5DDA /* Melody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11FF11F1D13FB1000CF5DDA /* Build configuration list for PBXNativeTarget "Melody" */;
+			buildPhases = (
+				B11FF0EE1D13FB1000CF5DDA /* Sources */,
+				B11FF0EF1D13FB1000CF5DDA /* Frameworks */,
+				B11FF0F01D13FB1000CF5DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Melody;
+			productName = Melody;
+			productReference = B11FF0F21D13FB1000CF5DDA /* Melody.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B11FF10A1D13FB1000CF5DDA /* MelodyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11FF1221D13FB1000CF5DDA /* Build configuration list for PBXNativeTarget "MelodyTests" */;
+			buildPhases = (
+				B11FF1071D13FB1000CF5DDA /* Sources */,
+				B11FF1081D13FB1000CF5DDA /* Frameworks */,
+				B11FF1091D13FB1000CF5DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B11FF10D1D13FB1000CF5DDA /* PBXTargetDependency */,
+			);
+			name = MelodyTests;
+			productName = MelodyTests;
+			productReference = B11FF10B1D13FB1000CF5DDA /* MelodyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B11FF1151D13FB1000CF5DDA /* MelodyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11FF1251D13FB1000CF5DDA /* Build configuration list for PBXNativeTarget "MelodyUITests" */;
+			buildPhases = (
+				B11FF1121D13FB1000CF5DDA /* Sources */,
+				B11FF1131D13FB1000CF5DDA /* Frameworks */,
+				B11FF1141D13FB1000CF5DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B11FF1181D13FB1000CF5DDA /* PBXTargetDependency */,
+			);
+			name = MelodyUITests;
+			productName = MelodyUITests;
+			productReference = B11FF1161D13FB1000CF5DDA /* MelodyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B11FF0EA1D13FB1000CF5DDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kanchan Yadav";
+				TargetAttributes = {
+					B11FF0F11D13FB1000CF5DDA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B11FF10A1D13FB1000CF5DDA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B11FF0F11D13FB1000CF5DDA;
+					};
+					B11FF1151D13FB1000CF5DDA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B11FF0F11D13FB1000CF5DDA;
+					};
+				};
+			};
+			buildConfigurationList = B11FF0ED1D13FB1000CF5DDA /* Build configuration list for PBXProject "Melody" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B11FF0E91D13FB1000CF5DDA;
+			productRefGroup = B11FF0F31D13FB1000CF5DDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B11FF0F11D13FB1000CF5DDA /* Melody */,
+				B11FF10A1D13FB1000CF5DDA /* MelodyTests */,
+				B11FF1151D13FB1000CF5DDA /* MelodyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B11FF0F01D13FB1000CF5DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11FF1051D13FB1000CF5DDA /* LaunchScreen.storyboard in Resources */,
+				B11FF1021D13FB1000CF5DDA /* Assets.xcassets in Resources */,
+				B11FF1001D13FB1000CF5DDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11FF1091D13FB1000CF5DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11FF1141D13FB1000CF5DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B11FF0EE1D13FB1000CF5DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11FF0FD1D13FB1000CF5DDA /* ViewController.m in Sources */,
+				B11FF0FA1D13FB1000CF5DDA /* AppDelegate.m in Sources */,
+				B11FF0F71D13FB1000CF5DDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11FF1071D13FB1000CF5DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11FF1101D13FB1000CF5DDA /* MelodyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11FF1121D13FB1000CF5DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11FF11B1D13FB1000CF5DDA /* MelodyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B11FF10D1D13FB1000CF5DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11FF0F11D13FB1000CF5DDA /* Melody */;
+			targetProxy = B11FF10C1D13FB1000CF5DDA /* PBXContainerItemProxy */;
+		};
+		B11FF1181D13FB1000CF5DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11FF0F11D13FB1000CF5DDA /* Melody */;
+			targetProxy = B11FF1171D13FB1000CF5DDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B11FF0FE1D13FB1000CF5DDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B11FF0FF1D13FB1000CF5DDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B11FF1031D13FB1000CF5DDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B11FF1041D13FB1000CF5DDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B11FF11D1D13FB1000CF5DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B11FF11E1D13FB1000CF5DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B11FF1201D13FB1000CF5DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Melody/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tuneIn.Melody;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B11FF1211D13FB1000CF5DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Melody/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tuneIn.Melody;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B11FF1231D13FB1000CF5DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MelodyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tuneIn.MelodyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Melody.app/Melody";
+			};
+			name = Debug;
+		};
+		B11FF1241D13FB1000CF5DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MelodyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tuneIn.MelodyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Melody.app/Melody";
+			};
+			name = Release;
+		};
+		B11FF1261D13FB1000CF5DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MelodyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tuneIn.MelodyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Melody;
+			};
+			name = Debug;
+		};
+		B11FF1271D13FB1000CF5DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MelodyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tuneIn.MelodyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Melody;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B11FF0ED1D13FB1000CF5DDA /* Build configuration list for PBXProject "Melody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11FF11D1D13FB1000CF5DDA /* Debug */,
+				B11FF11E1D13FB1000CF5DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11FF11F1D13FB1000CF5DDA /* Build configuration list for PBXNativeTarget "Melody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11FF1201D13FB1000CF5DDA /* Debug */,
+				B11FF1211D13FB1000CF5DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B11FF1221D13FB1000CF5DDA /* Build configuration list for PBXNativeTarget "MelodyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11FF1231D13FB1000CF5DDA /* Debug */,
+				B11FF1241D13FB1000CF5DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B11FF1251D13FB1000CF5DDA /* Build configuration list for PBXNativeTarget "MelodyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11FF1261D13FB1000CF5DDA /* Debug */,
+				B11FF1271D13FB1000CF5DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B11FF0EA1D13FB1000CF5DDA /* Project object */;
+}
