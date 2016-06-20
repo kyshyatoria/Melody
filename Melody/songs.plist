@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>uditnarayan</string>
+		<key>songs</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Tumhare Siva </string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Duniya Haseeno Ka Mela</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Zara Dekh Mera Deewanapan</string>
+			</dict>
+		</array>
+		<key>singer</key>
+		<string>Udit Narayan</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>kishorekumar</string>
+		<key>songs</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Haal kaisa hai Janab ka</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ek chatur naar</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Main Chali Main Chali </string>
+			</dict>
+		</array>
+		<key>singer</key>
+		<string>Kishore Kumar</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>shreyaghosal</string>
+		<key>songs</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Suna Suna Lamha Lamha </string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Jaadu Hai Nasha Hai</string>
+			</dict>
+		</array>
+		<key>singer</key>
+		<string>Shreya Ghoshal</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>amaalmalik</string>
+		<key>singer</key>
+		<string>Amaal Malik</string>
+		<key>songs</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Horn Blow </string>
+			</dict>
+			<dict>
+				<key>lyrics_path</key>
+				<string>salamat_lyrics.rtf</string>
+				<key>name</key>
+				<string>Salaam from Sarabjit</string>
+				<key>filePath</key>
+				<string>audio/Salamat Video Song - SARBJIT - Randeep Hooda, Richa Chadda - Arijit Singh, Tulsi Kumar, Amaal Mallik.mp3</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

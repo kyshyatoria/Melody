@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		B11FF0F71D13FB1000CF5DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF0F61D13FB1000CF5DDA /* main.m */; };
 		B11FF0FA1D13FB1000CF5DDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF0F91D13FB1000CF5DDA /* AppDelegate.m */; };
-		B11FF0FD1D13FB1000CF5DDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF0FC1D13FB1000CF5DDA /* ViewController.m */; };
 		B11FF1001D13FB1000CF5DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11FF0FE1D13FB1000CF5DDA /* Main.storyboard */; };
 		B11FF1021D13FB1000CF5DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11FF1011D13FB1000CF5DDA /* Assets.xcassets */; };
 		B11FF1051D13FB1000CF5DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11FF1031D13FB1000CF5DDA /* LaunchScreen.storyboard */; };
 		B11FF1101D13FB1000CF5DDA /* MelodyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF10F1D13FB1000CF5DDA /* MelodyTests.m */; };
 		B11FF11B1D13FB1000CF5DDA /* MelodyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF11A1D13FB1000CF5DDA /* MelodyUITests.m */; };
+		B11FF12A1D14175600CF5DDA /* songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = B11FF1291D14175600CF5DDA /* songs.plist */; };
+		B11FF1321D141A4400CF5DDA /* Salamat Video Song - SARBJIT - Randeep Hooda, Richa Chadda - Arijit Singh, Tulsi Kumar, Amaal Mallik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B11FF1311D141A4400CF5DDA /* Salamat Video Song - SARBJIT - Randeep Hooda, Richa Chadda - Arijit Singh, Tulsi Kumar, Amaal Mallik.mp3 */; };
+		B11FF1341D141D4100CF5DDA /* salamat_lyrics.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B11FF1331D141D4100CF5DDA /* salamat_lyrics.rtf */; };
+		B11FF1CB1D16C71500CF5DDA /* SongsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF1CA1D16C71500CF5DDA /* SongsListTableViewController.m */; };
+		B11FF1D21D16C97B00CF5DDA /* SingersListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF1D11D16C97B00CF5DDA /* SingersListTableViewController.m */; };
+		B11FF1D51D17E0A800CF5DDA /* LyricsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FF1D41D17E0A800CF5DDA /* LyricsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		B11FF0F61D13FB1000CF5DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B11FF0F81D13FB1000CF5DDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B11FF0F91D13FB1000CF5DDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B11FF0FB1D13FB1000CF5DDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B11FF0FC1D13FB1000CF5DDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B11FF0FF1D13FB1000CF5DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B11FF1011D13FB1000CF5DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B11FF1041D13FB1000CF5DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,16 @@
 		B11FF1161D13FB1000CF5DDA /* MelodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelodyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11FF11A1D13FB1000CF5DDA /* MelodyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MelodyUITests.m; sourceTree = "<group>"; };
 		B11FF11C1D13FB1000CF5DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11FF1291D14175600CF5DDA /* songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = songs.plist; sourceTree = "<group>"; };
+		B11FF1311D141A4400CF5DDA /* Salamat Video Song - SARBJIT - Randeep Hooda, Richa Chadda - Arijit Singh, Tulsi Kumar, Amaal Mallik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Salamat Video Song - SARBJIT - Randeep Hooda, Richa Chadda - Arijit Singh, Tulsi Kumar, Amaal Mallik.mp3"; sourceTree = "<group>"; };
+		B11FF1331D141D4100CF5DDA /* salamat_lyrics.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = salamat_lyrics.rtf; sourceTree = "<group>"; };
+		B11FF1C91D16C71500CF5DDA /* SongsListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongsListTableViewController.h; sourceTree = "<group>"; };
+		B11FF1CA1D16C71500CF5DDA /* SongsListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongsListTableViewController.m; sourceTree = "<group>"; };
+		B11FF1CC1D16C7C000CF5DDA /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B11FF1D01D16C97B00CF5DDA /* SingersListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingersListTableViewController.h; sourceTree = "<group>"; };
+		B11FF1D11D16C97B00CF5DDA /* SingersListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingersListTableViewController.m; sourceTree = "<group>"; };
+		B11FF1D31D17E0A800CF5DDA /* LyricsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsViewController.h; sourceTree = "<group>"; };
+		B11FF1D41D17E0A800CF5DDA /* LyricsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +116,19 @@
 			children = (
 				B11FF0F81D13FB1000CF5DDA /* AppDelegate.h */,
 				B11FF0F91D13FB1000CF5DDA /* AppDelegate.m */,
-				B11FF0FB1D13FB1000CF5DDA /* ViewController.h */,
-				B11FF0FC1D13FB1000CF5DDA /* ViewController.m */,
 				B11FF0FE1D13FB1000CF5DDA /* Main.storyboard */,
 				B11FF1011D13FB1000CF5DDA /* Assets.xcassets */,
 				B11FF1031D13FB1000CF5DDA /* LaunchScreen.storyboard */,
 				B11FF1061D13FB1000CF5DDA /* Info.plist */,
+				B11FF1281D14172800CF5DDA /* Resources */,
 				B11FF0F51D13FB1000CF5DDA /* Supporting Files */,
+				B11FF1C91D16C71500CF5DDA /* SongsListTableViewController.h */,
+				B11FF1CA1D16C71500CF5DDA /* SongsListTableViewController.m */,
+				B11FF1CC1D16C7C000CF5DDA /* Constants.h */,
+				B11FF1D01D16C97B00CF5DDA /* SingersListTableViewController.h */,
+				B11FF1D11D16C97B00CF5DDA /* SingersListTableViewController.m */,
+				B11FF1D31D17E0A800CF5DDA /* LyricsViewController.h */,
+				B11FF1D41D17E0A800CF5DDA /* LyricsViewController.m */,
 			);
 			path = Melody;
 			sourceTree = "<group>";
@@ -138,6 +157,32 @@
 				B11FF11C1D13FB1000CF5DDA /* Info.plist */,
 			);
 			path = MelodyUITests;
+			sourceTree = "<group>";
+		};
+		B11FF1281D14172800CF5DDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B11FF1361D141D4E00CF5DDA /* audio */,
+				B11FF1351D141D4500CF5DDA /* lyrics */,
+				B11FF1291D14175600CF5DDA /* songs.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B11FF1351D141D4500CF5DDA /* lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				B11FF1331D141D4100CF5DDA /* salamat_lyrics.rtf */,
+			);
+			name = lyrics;
+			sourceTree = "<group>";
+		};
+		B11FF1361D141D4E00CF5DDA /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				B11FF1311D141A4400CF5DDA /* Salamat Video Song - SARBJIT - Randeep Hooda, Richa Chadda - Arijit Singh, Tulsi Kumar, Amaal Mallik.mp3 */,
+			);
+			name = audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B11FF1051D13FB1000CF5DDA /* LaunchScreen.storyboard in Resources */,
+				B11FF1321D141A4400CF5DDA /* Salamat Video Song - SARBJIT - Randeep Hooda, Richa Chadda - Arijit Singh, Tulsi Kumar, Amaal Mallik.mp3 in Resources */,
 				B11FF1021D13FB1000CF5DDA /* Assets.xcassets in Resources */,
+				B11FF1341D141D4100CF5DDA /* salamat_lyrics.rtf in Resources */,
 				B11FF1001D13FB1000CF5DDA /* Main.storyboard in Resources */,
+				B11FF12A1D14175600CF5DDA /* songs.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B11FF0FD1D13FB1000CF5DDA /* ViewController.m in Sources */,
+				B11FF1CB1D16C71500CF5DDA /* SongsListTableViewController.m in Sources */,
 				B11FF0FA1D13FB1000CF5DDA /* AppDelegate.m in Sources */,
+				B11FF1D21D16C97B00CF5DDA /* SingersListTableViewController.m in Sources */,
+				B11FF1D51D17E0A800CF5DDA /* LyricsViewController.m in Sources */,
 				B11FF0F71D13FB1000CF5DDA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
